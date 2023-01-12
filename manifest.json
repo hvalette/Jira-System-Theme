@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Jira System Theme",
+  "description": "Change jira theme according to system theme",
+  "version": "0.0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://*.atlassian.net/*"],
+      "js": ["content-script.js"]
+    }
+  ],
+  "icons": {
+    "16": "/images/logo-16.png",
+    "32": "/images/logo-32.png",
+    "48": "/images/logo-48.png",
+    "128": "/images/logo-128.png"
+  }
+}
